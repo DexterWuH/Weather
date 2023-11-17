@@ -1,12 +1,8 @@
 package com.example.weather.data
 
 data class MainWeather(
- val weather: List<Type>
-)
-
-data class Type(
- val main : String,
- val description: String
+ val main: String,
+ val weather: String
 )
 
 data class City(
